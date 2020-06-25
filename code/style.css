@@ -1,3 +1,158 @@
-html {
+body {
   background-color: papayawhip;
+  margin: 0;
+}
+
+header {
+  background-image: url("./assets/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.opacity {
+  background-color: rgba(0, 4, 12, 0.3);
+}
+
+header h1 {
+  font-family: 'Montserrat';
+  font-size: 40px;
+  color: papayawhip;
+  margin: 0;
+}
+
+header h2 {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 700;
+  color: papayawhip;
+  margin:0;
+}
+
+header h3 {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  color: papayawhip;
+  margin: 0 5px 0 0;
+}
+
+.icons {
+  width: 95%;
+  text-align: right;
+  margin-top: 2%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+display: inline-block;
+border: 1px solid white;
+border-radius: 50%;
+}
+
+li a {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+}
+
+.icons img {
+  width: 20px;
+  padding-top: 4px;
+}
+
+.owner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.portfolio-owner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 10%;
+}
+
+.portfolio-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 10%;
+}
+
+.profile-avatar {
+  width: 96%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 5%;
+  margin-bottom: -5%;
+}
+
+.profile-avatar img {
+  border-radius: 50%;
+  width: 162px;
+  height: 162px;
+  border: 2px solid papayawhip;
+}
+
+@media (min-width: 668px) {
+
+  h4 {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+
+  header {
+    max-height: 400px;
+  }
+  
+  header h1 {
+    font-size: 60px;
+  }
+  
+  header h2 {
+  font-size: 30px;
+  }
+
+  header h3 {
+    font-size: 22px;
+    padding: 2px;
+  }
+
+
+  li a {
+    height: 60px;
+    width: 60px;
+  }
+
+  .profile-avatar {
+    margin-top: -120px;
+  }
+
+  .profile-avatar img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .icons img {
+    width: 25px;
+  }
+  
+  li {
+    border: 2px solid white;
+  }
 }

@@ -12,13 +12,17 @@ header {
 }
 
 .opacity {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
   background-color: rgba(0, 4, 12, 0.3);
 }
 
 header h1 {
   font-family: 'Montserrat';
   font-size: 40px;
-  color: papayawhip;
+  color: #faf0e6;
   margin: 0;
 }
 
@@ -26,7 +30,7 @@ header h2 {
   font-family: 'Montserrat';
   font-size: 24px;
   font-weight: 700;
-  color: papayawhip;
+  color: #faf0e6;
   margin:0;
 }
 
@@ -34,7 +38,7 @@ header h3 {
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
-  color: papayawhip;
+  color: #faf0e6;
   margin: 0 5px 0 0;
 }
 
@@ -71,7 +75,6 @@ li a {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-
 }
 
 .portfolio-owner {
@@ -103,7 +106,18 @@ li a {
   border-radius: 50%;
   width: 162px;
   height: 162px;
-  border: 2px solid papayawhip;
+  border: 2px solid #faf0e6;
+}
+
+.summary {
+  background-color: #faf0e6;
+  margin: 0;
+  padding: 10%;
+}
+
+.summary p {
+  font-family: 'Montserrat';
+  font-size: 17px;
 }
 
 @media (min-width: 668px) {
@@ -114,10 +128,6 @@ li a {
 
   h5 {
     font-size: 25px;
-  }
-
-  header {
-    max-height: 400px;
   }
   
   header h1 {
@@ -132,7 +142,6 @@ li a {
     font-size: 22px;
     padding: 2px;
   }
-
 
   li a {
     height: 60px;
@@ -155,4 +164,9 @@ li a {
   li {
     border: 2px solid white;
   }
+
+  .summary p {
+    font-size: 25px;
+  }
 }
+

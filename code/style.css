@@ -224,12 +224,32 @@ li a {
   margin-block-end: 0;
 }
 
+.community {
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #faf0e6;
+padding: 5%;
+}
+
+.assignement-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.community p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
 .skills {
   display: flex;
   flex-direction: column;
   text-align: center;
   width: 100%;
-  background-color: #faf0e6;
+  background-color: #fdfaf6;
   margin: 0;
 }
 
@@ -391,7 +411,7 @@ footer {
   .only-smaller-screen {
     display: none;
   }
-  
+
   .back-to-top {
     font-size: 40px;
   }

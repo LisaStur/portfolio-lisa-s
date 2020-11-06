@@ -208,6 +208,21 @@ li a {
   display: flex;
   flex-direction: column;
 }
+.other-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.other-section img {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.mustard {
+  border-radius: 50px;
+}
 
 .other-text{
   padding-bottom: 5%;

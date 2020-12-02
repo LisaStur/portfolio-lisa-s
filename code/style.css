@@ -157,8 +157,14 @@ li a {
   padding: 5%;
 }
 
+.featured-projects a {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
 .featured-projects img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -181,7 +187,7 @@ li a {
 .techs {
   display: flex;
   flex-flow: row wrap;
-  margin-right: 5%;
+  margin-left: 10%;
 }
 
 .tech-tag {
@@ -232,6 +238,12 @@ li a {
   display: flex;
   margin-block-start: 0;
   margin-block-end: 0;
+}
+
+.other-techs {
+  display: flex;
+  flex-flow: row wrap;
+
 }
 
 .list p {
@@ -372,6 +384,10 @@ footer {
     padding: 5% 10% 5% 10%;
   }
   
+  .techs {
+    margin-left: 0;
+  }
+
   .featured {
     display: flex;
     flex-flow: row wrap;
@@ -380,6 +396,11 @@ footer {
   
   .featured a {
     width: 47%;
+  }
+
+  .featured-projects img {
+    width: 100%;
+    height: auto;
   }
 
   footer h3 {

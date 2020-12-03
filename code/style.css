@@ -164,7 +164,7 @@ li a {
 }
 
 .featured-projects img {
-  width: 80%;
+  width: 50%;
   height: auto;
 }
 
@@ -396,11 +396,6 @@ footer {
   
   .featured a {
     width: 47%;
-  }
-
-  .featured-projects img {
-    width: 100%;
-    height: auto;
   }
 
   footer h3 {
